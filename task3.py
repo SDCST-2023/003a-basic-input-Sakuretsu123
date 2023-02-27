@@ -12,3 +12,12 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+question = "We are searching what is x in the equation ax + b = c"
+print(f"{question}")
+a = int (input("what is a ? \n"))
+b = int (input("what is b ? \n"))
+c = int (input("what is c ? \n"))
+
+x = (c-b)/a
+print(f"x is equal to {x}")
